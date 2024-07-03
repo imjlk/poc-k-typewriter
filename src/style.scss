@@ -1,0 +1,43 @@
+/**
+ * The following styles get applied both on the front of your site
+ * and in the editor.
+ *
+ * Replace them with your own styles or remove the file completely.
+ */
+
+.wp-block-create-block-k-typewriter {
+	& .typewriter-container {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		height: var(--wp--preset--font-size--xx-large);
+	}
+}
+
+
+
+// @keyframes typing {
+// 	from {
+// 		width: 0;
+// 	}
+// }
+
+// @keyframes blink {
+// 	50% {
+// 		border-color: transparent;
+// 	}
+// }
+
+// .typing {
+// 	width: 22ch;
+// 	animation: typing 2s steps(22), blink 0.5s step-end infinite alternate;
+// 	white-space: nowrap;
+// 	overflow: hidden;
+// 	border-right: 3px solid;
+// 	font-family: monospace;
+// 	font-size: 2em;
+// }
+
+// h1 {
+// 	min-height: 2rem;
+// }
